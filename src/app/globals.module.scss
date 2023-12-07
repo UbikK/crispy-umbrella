@@ -2,7 +2,8 @@
 
 .body {
   width: auto;
-  height: auto;
+  height: 85vh;
   margin: 0;
   font-family: variables.$font-family;
+  background-color: variables.$primary-color;
 }

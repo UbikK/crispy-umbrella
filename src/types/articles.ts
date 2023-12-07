@@ -17,13 +17,15 @@ export const StrapiArticleSchema = z.object({
       )
     ),
     image: z.object({
-      data: z.object({
-        id: z.number(),
-        attributes: z.object({
-          name: z.string(),
-          url: z.string(),
-        }),
-      }),
+      data: z.nullable(
+        z.object({
+          id: z.number(),
+          attributes: z.object({
+            name: z.string(),
+            url: z.string(),
+          }),
+        })
+      ),
     }),
   }),
 });

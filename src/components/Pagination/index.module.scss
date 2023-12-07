@@ -1,0 +1,64 @@
+@use "variables";
+@use "mixins";
+
+.container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  left: 50%;
+
+  .previous {
+    padding: 2rem 1rem;
+  }
+
+  .dots {
+    padding: 2rem 1rem;
+  }
+
+  .next {
+    padding: 2rem 1rem;
+  }
+
+  .pill {
+    @include mixins.rounded;
+    padding: 1rem;
+    > a {
+      text-decoration: inherit;
+      color: inherit;
+    }
+
+    &:hover {
+      @include mixins.coloredShadow(variables.$accent-color);
+      background-color: variables.$secondary-color;
+      border: solid 1px variables.$accent-color;
+    }
+
+    &.selected {
+      // @include mixins.coloredShadow(variables.$accent-color);
+      background-color: variables.$secondary-color;
+      border: solid 1px variables.$accent-color;
+    }
+  }
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+
+    &.right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+
+    &.left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+  }
+}

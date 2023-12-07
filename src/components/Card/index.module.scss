@@ -3,10 +3,10 @@
 
 .card {
   @include mixins.rounded;
-  background-color: variables.$primary-color;
+  background-color: variables.$tertiary-color;
   margin: 0 2rem;
   display: grid;
-  grid-template-rows: max-content 15rem 1fr;
+  grid-template-rows: max-content max-content 1fr;
   grid-template-columns: 20rem;
   box-shadow: variables.$shadow;
   text-decoration: none;
@@ -34,5 +34,7 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
+    border-top: solid 1px variables.$accent-color;
+    border-bottom: solid 1px variables.$accent-color;
   }
 }

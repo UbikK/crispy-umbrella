@@ -4,5 +4,8 @@
   height: 100px;
   background-color: variables.$secondary-color;
   margin-bottom: 1rem;
+  padding-left: 3rem;
   box-shadow: variables.$shadow;
+  display: flex;
+  align-items: center;
 }
