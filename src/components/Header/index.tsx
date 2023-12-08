@@ -4,7 +4,9 @@ import styles from "./index.module.scss";
 const Header = () => {
   return (
     <div className={styles.container}>
-      <h1>Blog</h1>
+      <h1>
+        <Link href="/articles">Blog</Link>
+      </h1>
       <span className={styles.links}>
         <Link href="/articles">Articles</Link>
         <Link href="/about">About</Link>
