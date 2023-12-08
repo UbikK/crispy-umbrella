@@ -1,5 +1,8 @@
 .article {
   padding: 0 2rem;
+  height: calc(100vh - 100px);
+  padding-top: 1rem;
+
   .title {
     height: fit-content;
     display: flex;
@@ -12,8 +15,10 @@
   }
 
   .image {
-    object-fit: cover;
-    width: 100%;
+    object-fit: fill;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .paragraph {
