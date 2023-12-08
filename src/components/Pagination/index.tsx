@@ -44,19 +44,22 @@ export default function Pagination(props: PaginationProps) {
 
       {paginationRange.map((pageNumber) => {
         if (pageNumber === DOTS) {
-          return <li className="px-4 py-2 dots">&#8230;</li>;
+          return (
+            <li className="px-4 py-2 dots" key="dots">
+              &#8230;
+            </li>
+          );
         }
         return (
-          <li
+          <Link
+            href={`${props.target}?page=${pageNumber}`}
+            key={`page-${pageNumber}`}
             className={`${styles.pill} ${
               pageNumber === props.currentPage ? styles.selected : ""
             }`}
-            key={`page-${pageNumber}`}
           >
-            <Link href={`${props.target}?page=${pageNumber}`}>
-              {pageNumber}
-            </Link>
-          </li>
+            <li>{pageNumber}</li>
+          </Link>
         );
       })}
 

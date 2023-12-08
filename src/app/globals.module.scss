@@ -2,8 +2,8 @@
 
 .body {
   width: auto;
-  height: 85vh;
+  height: 100vh;
   margin: 0;
   font-family: variables.$font-family;
-  background-color: variables.$primary-color;
+  background-color: adjust-color(variables.$primary-color, $alpha: -0.4);
 }

@@ -3,15 +3,17 @@
 
 .card {
   @include mixins.rounded;
+  @include mixins.coloredShadow(variables.$accent-color);
+  @include mixins.coloredBorder(variables.$accent-color);
   background-color: variables.$tertiary-color;
-  margin: 0 2rem;
+  margin: 0 1rem;
   display: grid;
   grid-template-rows: max-content max-content 1fr;
   grid-template-columns: 20rem;
-  box-shadow: variables.$shadow;
   text-decoration: none;
+
   &:hover {
-    box-shadow: variables.$heavy-shadow;
+    @include mixins.coloredHeavyShadow(variables.$accent-color);
   }
 
   .header {

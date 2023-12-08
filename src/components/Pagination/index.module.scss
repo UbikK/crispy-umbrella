@@ -1,16 +1,19 @@
 @use "variables";
 @use "mixins";
+@use "sass:color";
 
 .container {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
   list-style: none;
-  position: absolute;
+  margin: 0;
+  background-color: adjust-color(variables.$primary-color, $alpha: -0.4);
+  position: fixed;
   bottom: 0;
-  right: 50%;
-  left: 50%;
+  width: 100%;
+  padding: 0;
 
   .previous {
     padding: 2rem 1rem;
@@ -26,7 +29,9 @@
 
   .pill {
     @include mixins.rounded;
-    padding: 1rem;
+    text-decoration: inherit;
+    color: inherit;
+    padding: 0.5rem;
     > a {
       text-decoration: inherit;
       color: inherit;
@@ -39,7 +44,6 @@
     }
 
     &.selected {
-      // @include mixins.coloredShadow(variables.$accent-color);
       background-color: variables.$secondary-color;
       border: solid 1px variables.$accent-color;
     }

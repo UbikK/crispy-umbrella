@@ -12,7 +12,7 @@ export async function GET(request: Request) {
     fields: ["title", "excerpt"],
     populate: ["image"],
     pagination: {
-      pageSize: 3,
+      pageSize: 10,
       page: searchParams.get("page") ?? 1,
     },
   });

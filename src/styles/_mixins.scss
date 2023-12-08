@@ -5,3 +5,11 @@
 @mixin coloredShadow($color) {
   box-shadow: $color 0px 3px 8px;
 }
+
+@mixin coloredHeavyShadow($color) {
+  box-shadow: $color 0px 6px 16px;
+}
+
+@mixin coloredBorder($color) {
+  border: solid 1px $color;
+}
