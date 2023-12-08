@@ -5,5 +5,9 @@
   height: 100vh;
   margin: 0;
   font-family: variables.$font-family;
-  background-color: adjust-color(variables.$primary-color, $alpha: -0.4);
+  background-color: variables.$primary-color;
+
+  .main {
+    padding-top: 120px;
+  }
 }

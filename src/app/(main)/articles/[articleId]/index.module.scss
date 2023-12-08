@@ -1,0 +1,22 @@
+.article {
+  padding: 0 2rem;
+  .title {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2rem;
+    > h2 {
+      text-transform: capitalize;
+    }
+  }
+
+  .image {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .paragraph {
+    text-align: justify;
+  }
+}

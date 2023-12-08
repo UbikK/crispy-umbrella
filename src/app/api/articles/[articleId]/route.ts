@@ -1,5 +1,7 @@
 import { NextRequest } from "next/server";
 
+export const revalidate = 0;
+
 export async function GET(
   request: NextRequest,
   { params }: { params: { articleId: string } }
@@ -13,7 +15,7 @@ export async function GET(
     }
   );
 
-  const article = await response.json();
+  const { data: article } = await response.json();
   console.debug("🚀 ~ file: route.ts:13 ~ GET ~ articles:", article);
 
   return Response.json({ article });
