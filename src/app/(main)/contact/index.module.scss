@@ -1,5 +1,59 @@
 @use "variables";
+@use "mixins";
 
 .container {
   padding: variables.$page-padding;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2rem;
+      width: 35%;
+
+      .formItem {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        > input {
+          padding: 1rem;
+          @include mixins.rounded;
+          border: 0;
+        }
+
+        > textarea {
+          border: 0;
+          padding: 1rem;
+          @include mixins.rounded;
+        }
+
+        > button {
+          border: 0;
+          padding: 1rem;
+          @include mixins.rounded;
+          background-color: variables.$secondary-color;
+          font-size: medium;
+
+          &:hover {
+            @include mixins.coloredShadow(variables.$accent-color);
+            cursor: pointer;
+          }
+        }
+
+        .content {
+          height: 120px;
+        }
+      }
+    }
+  }
 }
