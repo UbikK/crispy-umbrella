@@ -1,4 +1,6 @@
+import Button from "@/components/Button";
 import { getUrl } from "@/utils/url";
+import Link from "next/link";
 import styles from "./index.module.scss";
 
 export default function Page({
@@ -16,6 +18,11 @@ export default function Page({
           result === "success" ? (
             <div className={styles.formResponse}>
               Your contact request has been saved. Thank You!
+              <div>
+                <Button>
+                  <Link href="/articles">Return to homepage</Link>
+                </Button>
+              </div>
             </div>
           ) : (
             <div className={styles.formResponse}>
@@ -49,7 +56,7 @@ export default function Page({
             </div>
 
             <div className={styles.formItem}>
-              <button>Send</button>
+              <Button>Send</Button>
             </div>
           </form>
         )}
