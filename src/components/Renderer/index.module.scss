@@ -1,0 +1,21 @@
+.title {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2rem;
+  > h2 {
+    text-transform: capitalize;
+  }
+}
+
+.image {
+  object-fit: fill;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph {
+  text-align: justify;
+}
