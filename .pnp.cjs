@@ -26,6 +26,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@auth0/auth0-react", "virtual:144048a9f537b5c62f57c034cf019208a78cce7bef54e4e9943d16693d47ce1693012216bdda10facfca549779888eb821ba1a465d00ce9ef1fe95bd3733abf3#npm:2.2.3"],\
           ["@types/node", "npm:20.10.4"],\
           ["@types/qs", "npm:6.9.10"],\
           ["@types/react", "npm:18.2.43"],\
@@ -48,6 +49,42 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@aashutoshrathi-word-wrap-npm-1.2.6-5b1d95e487-6eebd12a5c.zip/node_modules/@aashutoshrathi/word-wrap/",\
         "packageDependencies": [\
           ["@aashutoshrathi/word-wrap", "npm:1.2.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@auth0/auth0-react", [\
+      ["npm:2.2.3", {\
+        "packageLocation": "./.yarn/cache/@auth0-auth0-react-npm-2.2.3-ad70de5555-24f304c333.zip/node_modules/@auth0/auth0-react/",\
+        "packageDependencies": [\
+          ["@auth0/auth0-react", "npm:2.2.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:144048a9f537b5c62f57c034cf019208a78cce7bef54e4e9943d16693d47ce1693012216bdda10facfca549779888eb821ba1a465d00ce9ef1fe95bd3733abf3#npm:2.2.3", {\
+        "packageLocation": "./.yarn/__virtual__/@auth0-auth0-react-virtual-c1cfd817ad/0/cache/@auth0-auth0-react-npm-2.2.3-ad70de5555-24f304c333.zip/node_modules/@auth0/auth0-react/",\
+        "packageDependencies": [\
+          ["@auth0/auth0-react", "virtual:144048a9f537b5c62f57c034cf019208a78cce7bef54e4e9943d16693d47ce1693012216bdda10facfca549779888eb821ba1a465d00ce9ef1fe95bd3733abf3#npm:2.2.3"],\
+          ["@auth0/auth0-spa-js", "npm:2.1.3"],\
+          ["@types/react", "npm:18.2.43"],\
+          ["@types/react-dom", "npm:18.2.17"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:144048a9f537b5c62f57c034cf019208a78cce7bef54e4e9943d16693d47ce1693012216bdda10facfca549779888eb821ba1a465d00ce9ef1fe95bd3733abf3#npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@auth0/auth0-spa-js", [\
+      ["npm:2.1.3", {\
+        "packageLocation": "./.yarn/cache/@auth0-auth0-spa-js-npm-2.1.3-5f453f3d6d-c0585a7f6c.zip/node_modules/@auth0/auth0-spa-js/",\
+        "packageDependencies": [\
+          ["@auth0/auth0-spa-js", "npm:2.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1010,6 +1047,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["crispy-umbrella", "workspace:."],\
+          ["@auth0/auth0-react", "virtual:144048a9f537b5c62f57c034cf019208a78cce7bef54e4e9943d16693d47ce1693012216bdda10facfca549779888eb821ba1a465d00ce9ef1fe95bd3733abf3#npm:2.2.3"],\
           ["@types/node", "npm:20.10.4"],\
           ["@types/qs", "npm:6.9.10"],\
           ["@types/react", "npm:18.2.43"],\
