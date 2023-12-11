@@ -2,7 +2,6 @@ import Image from "next/image";
 import styles from "./index.module.scss";
 
 const Renderer = ({ content }: any) => {
-  console.debug("🚀 ~ file: index.tsx:5 ~ Renderer ~ data:", content);
   return (
     content &&
     content.map((part: any, partIndex: number) => {
