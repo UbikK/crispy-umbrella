@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
 
     .formResponse {
       display: flex;
@@ -33,6 +34,15 @@
         flex-direction: column;
         gap: 0.5rem;
 
+        .requiredFlag {
+          color: red;
+        }
+
+        .error {
+          color: red;
+          font-size: small;
+        }
+
         > input {
           padding: 1rem;
           @include mixins.rounded;
@@ -44,7 +54,9 @@
           padding: 1rem;
           @include mixins.rounded;
         }
-
+        .inputError {
+          @include mixins.coloredBorder(red);
+        }
         .content {
           height: 120px;
         }

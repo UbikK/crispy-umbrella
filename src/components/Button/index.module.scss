@@ -16,5 +16,10 @@
   &:hover {
     @include mixins.coloredShadow(variables.$accent-color);
     cursor: pointer;
+
+    &.disabled {
+      box-shadow: none;
+      cursor: not-allowed;
+    }
   }
 }

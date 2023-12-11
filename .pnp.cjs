@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/node", "npm:20.10.4"],\
           ["@types/qs", "npm:6.9.10"],\
-          ["@types/react", "npm:18.2.42"],\
+          ["@types/react", "npm:18.2.43"],\
           ["@types/react-dom", "npm:18.2.17"],\
           ["eslint", "npm:8.55.0"],\
           ["eslint-config-next", "virtual:144048a9f537b5c62f57c034cf019208a78cce7bef54e4e9943d16693d47ce1693012216bdda10facfca549779888eb821ba1a465d00ce9ef1fe95bd3733abf3#npm:14.0.3"],\
@@ -53,10 +53,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@babel/runtime", [\
-      ["npm:7.23.5", {\
-        "packageLocation": "./.yarn/cache/@babel-runtime-npm-7.23.5-6e68b78aa3-0f1669f639.zip/node_modules/@babel/runtime/",\
+      ["npm:7.23.6", {\
+        "packageLocation": "./.yarn/cache/@babel-runtime-npm-7.23.6-287e8eeec7-4c4ab16f03.zip/node_modules/@babel/runtime/",\
         "packageDependencies": [\
-          ["@babel/runtime", "npm:7.23.5"],\
+          ["@babel/runtime", "npm:7.23.6"],\
           ["regenerator-runtime", "npm:0.14.0"]\
         ],\
         "linkType": "HARD"\
@@ -102,7 +102,7 @@ const RAW_RUNTIME_STATE =
           ["ajv", "npm:6.12.6"],\
           ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.4"],\
           ["espree", "npm:9.6.1"],\
-          ["globals", "npm:13.23.0"],\
+          ["globals", "npm:13.24.0"],\
           ["ignore", "npm:5.3.0"],\
           ["import-fresh", "npm:3.3.0"],\
           ["js-yaml", "npm:4.1.0"],\
@@ -396,13 +396,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/react", [\
-      ["npm:18.2.42", {\
-        "packageLocation": "./.yarn/cache/@types-react-npm-18.2.42-88ab7806ab-b6ee1873ba.zip/node_modules/@types/react/",\
+      ["npm:18.2.43", {\
+        "packageLocation": "./.yarn/cache/@types-react-npm-18.2.43-365c9eecd4-a9d90a9338.zip/node_modules/@types/react/",\
         "packageDependencies": [\
-          ["@types/react", "npm:18.2.42"],\
+          ["@types/react", "npm:18.2.43"],\
           ["@types/prop-types", "npm:15.7.11"],\
           ["@types/scheduler", "npm:0.16.8"],\
-          ["csstype", "npm:3.1.2"]\
+          ["csstype", "npm:3.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -412,7 +412,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.2.17-d5475408ae-fe0dbb3224.zip/node_modules/@types/react-dom/",\
         "packageDependencies": [\
           ["@types/react-dom", "npm:18.2.17"],\
-          ["@types/react", "npm:18.2.42"]\
+          ["@types/react", "npm:18.2.43"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -914,10 +914,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001566", {\
-        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001566-4f87887103-fdff43ed49.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001568", {\
+        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001568-f3cd98cf9b-27aa9697e8.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001566"]\
+          ["caniuse-lite", "npm:1.0.30001568"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1012,7 +1012,7 @@ const RAW_RUNTIME_STATE =
           ["crispy-umbrella", "workspace:."],\
           ["@types/node", "npm:20.10.4"],\
           ["@types/qs", "npm:6.9.10"],\
-          ["@types/react", "npm:18.2.42"],\
+          ["@types/react", "npm:18.2.43"],\
           ["@types/react-dom", "npm:18.2.17"],\
           ["eslint", "npm:8.55.0"],\
           ["eslint-config-next", "virtual:144048a9f537b5c62f57c034cf019208a78cce7bef54e4e9943d16693d47ce1693012216bdda10facfca549779888eb821ba1a465d00ce9ef1fe95bd3733abf3#npm:14.0.3"],\
@@ -1040,10 +1040,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["csstype", [\
-      ["npm:3.1.2", {\
-        "packageLocation": "./.yarn/cache/csstype-npm-3.1.2-cead7d99b2-1f39c541e9.zip/node_modules/csstype/",\
+      ["npm:3.1.3", {\
+        "packageLocation": "./.yarn/cache/csstype-npm-3.1.3-e9a1c85013-f593cce41f.zip/node_modules/csstype/",\
         "packageDependencies": [\
-          ["csstype", "npm:3.1.2"]\
+          ["csstype", "npm:3.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1377,7 +1377,7 @@ const RAW_RUNTIME_STATE =
           ["file-entry-cache", "npm:6.0.1"],\
           ["find-up", "npm:5.0.0"],\
           ["glob-parent", "npm:6.0.2"],\
-          ["globals", "npm:13.23.0"],\
+          ["globals", "npm:13.24.0"],\
           ["graphemer", "npm:1.4.0"],\
           ["ignore", "npm:5.3.0"],\
           ["imurmurhash", "npm:0.1.4"],\
@@ -1600,7 +1600,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/eslint-plugin-jsx-a11y-virtual-33e0775d5f/0/cache/eslint-plugin-jsx-a11y-npm-6.8.0-5ffd885665-7a8e449853.zip/node_modules/eslint-plugin-jsx-a11y/",\
         "packageDependencies": [\
           ["eslint-plugin-jsx-a11y", "virtual:de62ff418f3f20269155a06c68c1642292e93ae31ca4c48a64098f9052b8ceb0006c54da2d774c5780798187b63dd09bca0f4de13876b55b19ce742ec276f904#npm:6.8.0"],\
-          ["@babel/runtime", "npm:7.23.5"],\
+          ["@babel/runtime", "npm:7.23.6"],\
           ["@types/eslint", null],\
           ["aria-query", "npm:5.3.0"],\
           ["array-includes", "npm:3.1.7"],\
@@ -2059,10 +2059,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["globals", [\
-      ["npm:13.23.0", {\
-        "packageLocation": "./.yarn/cache/globals-npm-13.23.0-7f02426fd5-bf6a8616f4.zip/node_modules/globals/",\
+      ["npm:13.24.0", {\
+        "packageLocation": "./.yarn/cache/globals-npm-13.24.0-cc7713139c-62c5b1997d.zip/node_modules/globals/",\
         "packageDependencies": [\
-          ["globals", "npm:13.23.0"],\
+          ["globals", "npm:13.24.0"],\
           ["type-fest", "npm:0.20.2"]\
         ],\
         "linkType": "HARD"\
@@ -3028,11 +3028,11 @@ const RAW_RUNTIME_STATE =
           ["@opentelemetry/api", null],\
           ["@swc/helpers", "npm:0.5.2"],\
           ["@types/opentelemetry__api", null],\
-          ["@types/react", "npm:18.2.42"],\
+          ["@types/react", "npm:18.2.43"],\
           ["@types/react-dom", "npm:18.2.17"],\
           ["@types/sass", null],\
           ["busboy", "npm:1.6.0"],\
-          ["caniuse-lite", "npm:1.0.30001566"],\
+          ["caniuse-lite", "npm:1.0.30001568"],\
           ["postcss", "npm:8.4.31"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:144048a9f537b5c62f57c034cf019208a78cce7bef54e4e9943d16693d47ce1693012216bdda10facfca549779888eb821ba1a465d00ce9ef1fe95bd3733abf3#npm:18.2.0"],\
@@ -3433,7 +3433,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/react-dom-virtual-6f6a10d79b/0/cache/react-dom-npm-18.2.0-dd675bca1c-ca5e7762ec.zip/node_modules/react-dom/",\
         "packageDependencies": [\
           ["react-dom", "virtual:144048a9f537b5c62f57c034cf019208a78cce7bef54e4e9943d16693d47ce1693012216bdda10facfca549779888eb821ba1a465d00ce9ef1fe95bd3733abf3#npm:18.2.0"],\
-          ["@types/react", "npm:18.2.42"],\
+          ["@types/react", "npm:18.2.43"],\
           ["loose-envify", "npm:1.4.0"],\
           ["react", "npm:18.2.0"],\
           ["scheduler", "npm:0.23.0"]\
@@ -3912,7 +3912,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/core", null],\
           ["@types/babel-plugin-macros", null],\
           ["@types/babel__core", null],\
-          ["@types/react", "npm:18.2.42"],\
+          ["@types/react", "npm:18.2.43"],\
           ["babel-plugin-macros", null],\
           ["client-only", "npm:0.0.1"],\
           ["react", "npm:18.2.0"]\

@@ -1,16 +1,9 @@
-import { getUrl } from "@/utils/url";
 import { NextResponse } from "next/server";
 
 export const POST = async (req: Request) => {
-  const data = await req.formData();
+  const data = await req.json();
 
-  const payload = {
-    email: data.get("email"),
-    subject: data.get("subject"),
-    content: data.get("content"),
-  };
-
-  const body = { data: payload };
+  const body = { data };
 
   const response = await fetch(`${process.env.CMS_URL}/api/contacts`, {
     method: "POST",
@@ -22,10 +15,5 @@ export const POST = async (req: Request) => {
     },
   });
 
-  return NextResponse.redirect(
-    `${getUrl()}/contact?result=${
-      response.status === 200 ? "success" : "error"
-    }`,
-    302
-  );
+  return NextResponse.json(await response.json());
 };

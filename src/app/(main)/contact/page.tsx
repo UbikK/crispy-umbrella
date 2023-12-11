@@ -1,6 +1,6 @@
 import Button from "@/components/Button";
-import { getUrl } from "@/utils/url";
 import Link from "next/link";
+import ContactForm from "./components/form";
 import styles from "./index.module.scss";
 
 export default function Page({
@@ -31,34 +31,7 @@ export default function Page({
             </div>
           )
         ) : (
-          <form
-            action={`${getUrl()}/api/contact`}
-            method="post"
-            className={styles.form}
-          >
-            <div className={styles.formItem}>
-              <label htmlFor="email">Email Address</label>
-              <input type="email" name="email" id="email" />
-            </div>
-
-            <div className={styles.formItem}>
-              <label htmlFor="subject">Subject</label>
-              <input type="text" name="subject" id="subject" />
-            </div>
-
-            <div className={styles.formItem}>
-              <label htmlFor="content">Content</label>
-              <textarea
-                name="content"
-                id="content"
-                className={styles.content}
-              />
-            </div>
-
-            <div className={styles.formItem}>
-              <Button>Send</Button>
-            </div>
-          </form>
+          <ContactForm />
         )}
       </div>
     </div>
