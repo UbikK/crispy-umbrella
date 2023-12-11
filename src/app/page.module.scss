@@ -97,7 +97,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -191,7 +191,7 @@
     align-items: flex-end;
     pointer-events: none;
     inset: auto 0 0;
-    padding: 2rem;
+    padding: 0 5rem;
     height: 200px;
     background: linear-gradient(
       to bottom,

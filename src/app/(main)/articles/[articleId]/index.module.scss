@@ -1,5 +1,7 @@
+@use "variables";
+
 .article {
-  padding: 0 2rem;
+  padding: variables.$page-padding;
   height: calc(100vh - 100px);
   padding-top: 1rem;
 

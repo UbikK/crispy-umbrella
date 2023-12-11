@@ -9,7 +9,7 @@
   width: 100%;
   top: 0;
   z-index: 2;
-  padding: 0 3rem;
+
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr;
@@ -19,8 +19,13 @@
     color: inherit;
   }
 
+  .title {
+    padding: 0 3rem;
+  }
+
   .links {
-    justify-self: center;
+    justify-self: end;
+    padding-right: 3rem;
     display: flex;
     gap: 2rem;
   }

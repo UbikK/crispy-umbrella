@@ -13,7 +13,7 @@ export default async function Page() {
 
   return (
     <div className={styles.container}>
-      <Renderer content={data.attributes.content} />;
+      <Renderer content={data.attributes.content} />
     </div>
   );
 }
