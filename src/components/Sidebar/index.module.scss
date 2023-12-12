@@ -1,0 +1,11 @@
+@use "mixins";
+@use "variables";
+
+.container {
+  @include mixins.coloredShadow(variables.$accent-color);
+  height: 100%;
+  border-right: solid 1px variables.$accent-color;
+  background-color: variables.$tertiary-color;
+  flex-basis: 10%;
+  padding: 2rem;
+}

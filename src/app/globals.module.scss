@@ -1,13 +1,18 @@
 @use "variables";
 
-.body {
-  width: auto;
-  height: 100vh;
+.html {
+  height: 100%;
   margin: 0;
-  font-family: variables.$font-family;
-  background-color: variables.$primary-color;
+  padding: 0;
+  border: 0;
 
-  .main {
-    padding-top: 100px;
+  .body {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: variables.$font-family;
+    background-color: variables.$primary-color;
   }
 }

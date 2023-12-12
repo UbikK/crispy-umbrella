@@ -1,0 +1,10 @@
+@use "variables";
+
+.adminPanel {
+  display: flex;
+  height: 100%;
+
+  .content {
+    padding: variables.$page-padding;
+  }
+}
